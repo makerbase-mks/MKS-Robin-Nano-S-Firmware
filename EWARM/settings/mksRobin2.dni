@@ -1,0 +1,177 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1751833504
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=168000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=84
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[CodeCoverage]
+Enabled=_ 0
+[struct_types]
+Fmt0=CFG_ITMES-back_btn_color	4	0
+Fmt1=CFG_ITMES-back_btn_textcolor	4	0
+Fmt2=CFG_ITMES-background_color	4	0
+Fmt3=CFG_ITMES-btn_state_color	4	0
+Fmt4=CFG_ITMES-btn_state_sel_textcolor	4	0
+Fmt5=CFG_ITMES-btn_state_textcolor	4	0
+Fmt6=CFG_ITMES-btn_textcolor	4	0
+Fmt7=CFG_ITMES-dialog_btn_color	4	0
+Fmt8=CFG_ITMES-dialog_btn_textcolor	4	0
+Fmt9=CFG_ITMES-filename_color	4	0
+Fmt10=CFG_ITMES-printfile_textcolor	4	0
+Fmt11=CFG_ITMES-printing_bar_color_left	4	0
+Fmt12=CFG_ITMES-printing_bar_color_right	4	0
+Fmt13=CFG_ITMES-state_background_color	4	0
+Fmt14=CFG_ITMES-state_text_color	4	0
+Fmt15=CFG_ITMES-title_color	4	0
+Fmt16=FILINFO-lfname	4	0
+[array_types]
+Fmt0=WCHAR[2]	4	0
+Fmt1=char[2048]	4	0
+Fmt2=char[96]	4	0
+Fmt3=uint8_t[2048]	4	0
+Fmt4=uint8_t[256]	4	0
+Fmt5=uint8_t[4]	4	0
+Fmt6=unsigned char[256]	4	0
+Fmt7=unsigned char[32768]	4	0
+Fmt8=unsigned char[4]	4	0
+[watch_formats]
+Fmt0={W}0:*data_addr	4	0
+Fmt1={W}0:DeviceCode	4	0
+Fmt2={W}0:FlashID	4	0
+Fmt3={W}0:ReadAddr	4	0
+Fmt4={W}0:W25QXX_TYPE	4	0
+Fmt5={W}0:cfg_data	4	0
+Fmt6={W}0:cr1its	4	0
+Fmt7={W}0:current_endstop_bits	1	0
+Fmt8={W}0:data	4	0
+Fmt9={W}0:e2pr_Buf_Write	4	2
+Fmt10={W}0:eeprom_data_int16_t	4	0
+Fmt11={W}0:eeprom_data_int32_t	4	0
+Fmt12={W}0:gCfgItems.background_color	4	0
+Fmt13={W}0:gCfgItems.title_color	4	0
+Fmt14={W}0:gCfgItems.total_pic	3	0
+Fmt15={W}0:huart1.Instance->SR	4	0
+Fmt16={W}0:ind	3	0
+Fmt17={W}0:isrflags	4	0
+Fmt18={W}0:max6675_temp	1	0
+Fmt19={W}0:mksCfg.bed_leveling_method	3	0
+Fmt20={W}0:mksCfg.heater_1_mintemp	3	0
+Fmt21={W}0:mksTmp.cfg_hardware_test_enable	4	0
+Fmt22={W}0:n	5	0
+Fmt23={W}0:p[i]	4	0
+Fmt24={W}0:param[ind]	3	0
+Fmt25={W}0:q	3	0
+Fmt26={W}0:sector_temp	4	0
+Fmt27={W}0:test_recbuf	4	2
+Fmt28={W}0:test_writebuf	4	2
+Fmt29={W}0:textt	4	0
+Fmt30={W}0:w25qID	4	0
+Fmt31={W}0:watch_temp_period	3	0
+Fmt32={W}1:*pBuffer	4	0
+Fmt33={W}1:gCfgItems.overturn_180	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title_0=I0
+Symbol_0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "E:\Sofware\Origin Sofware\Robin2_SVN\trunk\mksRobin2\Middlewares\Ucgui\GUI\Core\GUI_TOUCH_DriverAnalog.c" ""
+Count=1
+SuppressDialog=1
+[CallStackLog]
+Enabled=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
